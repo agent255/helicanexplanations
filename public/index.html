@@ -27,11 +27,7 @@
             min-width: 50%;
             min-height: 50%;
         }
-    </style>
-</head>
 
-<body>
-    <style>
         #myVideo {
             position: fixed;
             right: 0;
@@ -48,21 +44,34 @@
             color: #f1f1f1;
             width: 100%;
             padding: 20px;
+
         }
 
 
+        #logo-container {
+            text-align: center;
+            margin-top: 15vh;
+        }
 
         #logo {
-            
             height: 15vh;
         }
     </style>
-    <video autoplay  id="myVideo">
+</head>
+
+<body>
+    <style>
+
+    </style>
+    <video autoplay muted id="myVideo">
         <source src="./vids/INTRODUCTION.mp4" type="video/mp4">
     </video>
     <section id="content">
-        <h1>Hello and welcome to Helican Explanations</h1>
-        <h3>We are a youtube channel dedicated to teaching coding and ntse</h3>
+        <h1 style="font-size: 10vh; text-align: center;         margin-top: 30vh;
+        ">Hello and welcome to Helican Explanations</h1>
+        <h2 style="text-align: center; font-size: 5vh;         margin-top: 15vh;
+        ">We are a youtube channel dedicated to teaching coding and NTSE
+        </h2>
         <div id="logo-container">
             <img src="./img/logo.png" alt="Our logo" id="logo">
         </div>
